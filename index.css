@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  padding: 15px;
+  padding: 25px;
 }
 a {
     display: inline;
@@ -38,14 +38,13 @@ img{
   display: flex;
   float: left;
 }
-.contenido{
-  display: flex;
-  float:none;
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.foto{
-  height: 200px;
-  width: 150px;
-}
+
 .titulo{
-text-align: center;
+text-align: right;
+}
+h2{
+  text-align: center;
 }

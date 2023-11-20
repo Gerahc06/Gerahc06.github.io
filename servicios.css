@@ -1,18 +1,34 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color:burlywood;
 }
+header{
+    display: flex;
+    min-height: 60px;
+    background-color:burlywood;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    }
+    .logo{
+      display: flex;
+    }
+    .logo img{
+      height: 90px;
+    }
 body{
     width:100%;
     height: 100%;
     font-family: 'GFS Neohellenic', sans-serif;
+    
     letter-spacing: 0.05em;
     line-height: 1.6;
 }
-.title{
+.title1{
 text-align: center;
 font-size: 40px;
-color: #6a6a6a;
+color: black;
 margin-top:100px;
 font-weight: 100;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -29,9 +45,9 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container .card {
     width: 430px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.899);
     overflow: hidden;
     margin: 20px;
     border-image: space;
@@ -45,6 +61,7 @@ box-shadow: 0 12px 16px regba(0,0,0,0.2);
 .container .card img{
    width: 330px;
     height: 250px;
+    padding: 25px;
 }
 .container .card h4 {
     font-weight: 600;
