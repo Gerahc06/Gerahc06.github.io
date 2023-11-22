@@ -2,6 +2,8 @@ body{
   margin: 0;
   padding: 25px;
 }
+
+
 a {
     display: inline;
     margin: 5px;
@@ -21,7 +23,7 @@ padding:15px;
   display: flex;
 }
 .logo img{
-  height: 90px;
+  height: 100%;
 }
 nav a:hover {
   color:beige;
@@ -41,7 +43,6 @@ img{
 p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .titulo{
 text-align: right;
 }
