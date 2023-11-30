@@ -7,20 +7,20 @@ body{
     font-family: fantasy;
     text-decoration: none;
     color: black;
-}h
-header{
-    display: flex;
-    min-height: 60px;
-    background-color: burlywood;
-    justify-content: space-between;
-    align-items: center;
-    padding:15px;
 }
-.logo{
+header{
+  display: flex;
+  min-height: 10px;
+  background-color: burlywood;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  }
+  .logo{
     display: flex;
   }
   .logo img{
-    height: 90px;
+    height: 100%;
   }
   nav a:hover {
     color:beige;
