@@ -1,22 +1,24 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color:burlywood;
 }
 header{
     display: flex;
-    min-height: 60px;
-    background-color:burlywood;
-    justify-content: space-between;
-    align-items: center;
-    padding:15px;
-    }
-    .logo{
-      display: flex;
-    }
-    .logo img{
-      height: 90px;
-    }
+ min-height: 10px;
+ background-color:burlywood;
+ justify-content: space-between;
+  align-items: center;
+padding: 10px;
+}
+.logo{
+    display: flex;
+  }
+  .logo img{
+    height: 100%;
+  }
+  nav a:hover {
+    color:beige;
+  }
 body{
     width:100%;
     height: 100%;
@@ -71,3 +73,21 @@ box-shadow: 0 12px 16px regba(0,0,0,0.2);
     font-size: 16px;
     font-weight:300;
 }
+@media (max-width:700px)
+      header{
+      flex-direction: column;
+    }
+    footer{
+        background-color:blanchedalmond;
+        width: 100%;
+        height: 140px;
+        bottom: 0;
+        position:fixed;
+        text-align: center;
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+    }
