@@ -7,7 +7,7 @@ body{
     font-family: fantasy;
     text-decoration: none;
     color: black;
-}
+}h
 header{
     display: flex;
     min-height: 60px;
@@ -25,13 +25,24 @@ header{
   nav a:hover {
     color:beige;
   }
-  @media (max-width:700px){
+  @media (max-width:1000px){
     header{
       flex-direction: column;
+      width: 100%;
     }
     nav{
       padding: 10px 0px;
     }
+    @media (max-width:400px)
+    body{
+    width: 100%;
+      flex-direction: column;
+}
+    @media (max-width:400px)
+    footer{
+    width: 100%;
+      flex-direction: column;
+}
   }
   .contenido {
     float: left;

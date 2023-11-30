@@ -27,13 +27,23 @@ padding: 10px;
 nav a:hover {
   color:beige;
 }
-@media (max-width:700px){
+@media (max-width:1000px){
   header{
     flex-direction: column;
   }
   nav{
     padding: 10px 0px;
   }
+}
+@media (max-width:400px)
+body{
+    width: 100%;
+      flex-direction: column;
+}
+@media (max-width:400px)
+footer{
+    width: 100%;
+      flex-direction: column;
 }
 img{
   display: flex;
